@@ -1,7 +1,7 @@
 # DOS07
 - 👋 Hi, I’m @KonstantinSafronov
 
-- 👀 I’m student of "DOS07-onl/DevOps" group in TeachMeSkills.
+- 👀 I’m student of "DOS07-onl/DevOps" group in "TeachMeSkills" Co.
 
 - 🌱 I’m currently learning DevOps basics.
 
