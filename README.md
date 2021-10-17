@@ -7,3 +7,5 @@
 
 - 📫 How to reach me: +37525 6485655 (any messengers)
 
+P.S.
+You can find completed homework tasks in the corresponding branches.
