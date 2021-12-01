@@ -133,7 +133,7 @@ who
 cat hw14task[0-1][0-9].txt
 
 ```
-[![hw14p1t1](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p1.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p1.png)
+[![hw14p1t1](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p1.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p1.png)
 
 
 
@@ -149,7 +149,7 @@ ss -lntu | awk '{print $5}'
 
 ```
 
-[![hw14p2t01](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t01.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t01.png)
+[![hw14p2t01](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t01.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t01.png)
 
 ## _Task 2_
 
@@ -162,7 +162,7 @@ sudo netstat -tulpn | grep -i udp | awk '{print $4}'
 
 ```
 
-[![hw14p2t02](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t02.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t02.png)
+[![hw14p2t02](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t02.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t02.png)
 
 ## _Task 3_
 
@@ -174,7 +174,7 @@ routel
 
 ```
 
-[![hw14p2t03](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t03.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t03.png)
+[![hw14p2t03](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t03.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t03.png)
 
 ## _Task 4_
 
@@ -186,7 +186,7 @@ ss -lntu | grep -i listen | awk '{print $5}'
 
 ```
 
-[![hw14p2t04](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t04.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t04.png)
+[![hw14p2t04](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t04.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t04.png)
 
 ## _Task 5_
 
@@ -202,9 +202,9 @@ netstat -s
 
 - Установить переменную окружения, так чтобы при логине и удаленном соединении эта переменная оставалась в системе для текущего пользователя
 
-[![hw14p2t06_1](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t06_1.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t06_1.png)
+[![hw14p2t06_1](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t06_1.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t06_1.png)
 
-[![hw14p2t06_2](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t06_2.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t06_2.png)
+[![hw14p2t06_2](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t06_2.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t06_2.png)
 
 ## _Task 7_
 
@@ -217,4 +217,4 @@ netstat | grep -i connected | awk '{print $7, "-", $8}'
 
 ```
 
-[![hw14p2t07](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t07.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14scr/hw14p2t07.png)
+[![hw14p2t07](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t07.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW14/HW14dir/hw14p2t07.png)
