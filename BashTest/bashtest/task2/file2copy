@@ -1,0 +1,7 @@
+#!/bin/bash
+
+hostname > /tmp/MemUsageTop.txt
+echo >> /tmp/MemUsageTop.txt
+ip a | grep inet | cut -d " " -f 6 >> /tmp/MemUsageTop.txt
+echo >> /tmp/MemUsageTop.txt 
+ps -eo pid,ppid,%mem,%cpu,comm --sort=-%mem | head >> /tmp/MemUsageTop.txt
