@@ -13,7 +13,7 @@
 >## _Task 3_
 
 - Повторить пункт 2 только в докере.
-> Playbok: [hw23t3](https://github.com/KonstantinSafronov/DOS07/blob/HW23/HW23dir/t2/t2playbook.yml)
+> Playbook: [hw23t3](https://github.com/KonstantinSafronov/DOS07/blob/HW23/HW23dir/t2/t2playbook.yml)
 [![hw23t3pic](https://github.com/KonstantinSafronov/DOS07/blob/HW23/HW23dir/pics/hw23pic1_2.png)](https://github.com/KonstantinSafronov/DOS07/blob/HW23/HW23dir/pics/hw23pic1_2.png)
 
 >## _Task 4_5_
