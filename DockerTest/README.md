@@ -65,3 +65,13 @@ that label-values can span multiple lines."
 
 
 >##    10. Создать докерфайл с nginx(который будет выводить Hello World) и передать туда в качестве аргумента лейбл build_date, также примонтировать директорию с машинки в которой будет лежать файл для nginx.
+
+```
+FROM nginx
+
+ENV LABEL BUILD_DATE="2021-01-11" 
+ARG BUILD_DATE 
+```
+
+> Монтировать директории необходимо по следующим путям:
+```/var/www/html/``` и ```/usr/share/nginx/html/```
