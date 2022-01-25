@@ -1,0 +1,16 @@
+---
+- name: Ansible Test
+  hosts: all
+  vars:
+    var_from: "/srv/myfiles"
+    var_dest: "/etc"
+
+
+  tasks:
+  - name: Copy files
+    ansible.builtin.copy:
+      src: {{ var_from }}
+      dest: {{ var_dest }}
+      owner: foo
+      group: foo
+      mode: '0644'
