@@ -37,9 +37,15 @@ jobs:
 
       - name: 'Terraform fmt'
         id: fmt
-        run: terraform fmt -check
+        run: terraform fmt
         continue-on-error: true
         working-directory: ${{ env.WORKING_DIRECTORY }}    
+
+      - name: 'Terraform plan'
+        id: plan
+        run: terraform plan -no-color
+        working-directory: ${{ env.WORKING_DIRECTORY }}
+
 
       - name: 'Terraform init'
         id: init
@@ -50,4 +56,3 @@ jobs:
         id: plan
         run: terraform plan -no-color
         working-directory: ${{ env.WORKING_DIRECTORY }}
- 
