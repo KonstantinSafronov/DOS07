@@ -35,7 +35,7 @@ jobs:
         with:
           terraform_version: 1.1.7
 
-      - name: 'Terraform fmt'
+      - name: 'Terraform fmt  new'
         id: fmt
         run: terraform fmt
         continue-on-error: true
